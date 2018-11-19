@@ -1,0 +1,23 @@
+site_name: Интенсив по технической документации для инженеров
+site_author: Константин Молчанов
+
+nav:
+  - День 1:
+    - day1/words.md
+    - day1/sentences.md
+    - day1/document.md
+  - День 2:
+    - day2/techdoc-kinds.md
+
+theme:
+  name: material
+  font:
+    text: 'PT Serif'
+    code: 'PT Mono'
+  language: ru
+
+markdown_extensions:
+  - admonition
+
+# extra_css:
+  # - css/extra.css
