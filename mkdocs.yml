@@ -8,8 +8,8 @@ nav:
     - day1/document.md
   - День 2:
     - day2/techdoc-kinds.md
-    - day2/readme.md
-    - day2/tools.md
+    - day2/problems-and-tools.md
+    - day2/rdd.md
 
 theme:
   name: material
