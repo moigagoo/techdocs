@@ -1,9 +1,10 @@
-# Типы технической документации и инструменты документирования
+# Виды документации и инструменты документирования
 
 Техническая документация бывает двух типов: мануалы и референсы. У них разные задачи, и пишут их по-разному.
 
+## Виды документации
 
-## Мануалы
+### Мануалы
 
 Мануал, или туториал — это последовательно изложенная инструкция. Структура мануала — это классическая структура документа, о которой мы говорили вчера.
 
@@ -41,7 +42,7 @@
     Техписатель не пишет на автомате и всё подвеграет сомнению. Это хорошая привычка, приучите себя к ней.
 
 
-## Референсы
+### Референсы
 
 Референс — это справочник. Самый популярный пример референса: API-документация.
 
@@ -74,11 +75,37 @@
 !!! info
     Почему не Ворд? Потому что документация в Ворде не версионируема и не может жить рядом с кодом.
 
-**Markdown**. Самый популярный язык, lingua franca в технической коммуникации. Поддерживают все: GitHub, Bitbucket, Slack, Telegram и прочие и прочие.
+
+### Markdown
+
+Самый популярный язык, lingua franca в технической коммуникации. Поддерживают все: GitHub, Bitbucket, Slack, Telegram.
+
+Маркдаун должен знать каждый. Простой до примитивности, кривенький и косенький, Маркдаун — пример того, как в историческом соревновании побеждает не совершеннейший, а наиболее приспособленный.
+
+```markdown
+# Header
+
+Regular text.
+
+## Subheader
+
+Here's some **bold** and *italic* for you (you can ***combine*** them).
+
+Here's a [link](http://example.com) and an image: ![Alt text](image.png)
+
+Tables are a mess:
+
+| Name    | Age  | Gender |
+|---------|------|--------|
+| Alice   | 23   | female |
+| Bob     | 34   | male   |
+| XJ-1234 | 2000 | other  |
+```
 
 Плюсы:
 
 -   простота,
+-   читается в сыром виде лучше всех,
 -   популярность.
 
 Минусы:
@@ -94,19 +121,66 @@
 -   [GitHub flavored Markdown](https://github.github.com/gfm/)
 
 
-**ReStructuredText (reST)**. Старый язык, сейчас популярен в экосистеме Питона. Пересекается с Маркдауном в базовом синтаксисе.
+### ReStructuredText (reST)
+
+Старый язык, сейчас популярен в экосистеме Python в связке со [Sphinx](http://www.sphinx-doc.org/). Пересекается с Маркдауном в базовом синтаксисе.
+
+Приятный язык, хотя и со своими закидонами. Главный плюс — возможность расширения синтаксиса. Благодаря этому возможно существование Сфинкса, который добавляет синтаксис для документирования кода.
+
+```restructuredtext
+######
+Header
+######
+
+Unlike in Markdown where the level of a header is exactly the number of # symbols, in reST, header inheritance is calculated on the fly. Sound cool but in fact it eliminates any attempt to implement includes.
+
+*********
+Subheader
+*********
+
+**Bold** and *italic* are the same as in Markdown. But you ***can't*** combine them :-(
+
+`Links <http://example.com>`_ look weird until you get used to them.
+
+Image:
+
+.. image:: image.png
+    :alt: Alt text
+
+.. note:: reST supports admonitions!
+    This is called “semantic markup.”
+
+Tables can be the same ugly mess as in Markdown, but there are saner options—csv and list tables:
+
+.. list-table::
+   :header-rows: 1
+
+   * - Name
+     - Age
+     - Gender
+   * - Alice
+     - 23
+     - female
+   * - Bob
+     - 34
+     - male
+   * - XJ-1234
+     - 2000
+     - other
+```
 
 Плюсы:
 
--   простые вещи делаются просто,
+-   почти все простые вещи делаются просто,
+-   бо́льшая выразительность, чем у Маркдауна,
 -   семантическая вёрстка,
 -   есть API для расширений,
 -   есть синтаксис для сложных таблиц,
--   [Sphinx](https://sphinx-doc.org).
+-   Сфинкс.
 
 Минусы:
 
--   сложный синтаксис ссылок,
+-   не все простые вещи делаются просто, например, ссылки и картинки,
 -   непопулярность,
 -   нефиксированная иерархия заголовков.
 
@@ -114,9 +188,115 @@
 
 -   [Официальный сайт](http://docutils.sourceforge.net/rst.html)
 -   [Статья в Вики](https://en.wikipedia.org/wiki/ReStructuredText)
--   [Быстрый старт на сайте Сфинкса](https://sphinx-doc.org/en/latest/usage/restructuredtext/basics.html)
+-   [Справка по языку на сайте Сфинкса](http://sphinx-doc.org/en/latest/usage/restructuredtext/basics.html)
 
 
-**AsciiDoc**.
+### AsciiDoc
 
-**Wiki Markup**. На самом деле, это не один формат, а много
+Старый и непопулярный язык, получивший вторую жизнь в экосистеме Ruby в связке с [AsciiDoctor](https://asciidoctor.org). Пересекается с Маркдауном в базовом синтаксисе.
+
+Аскидок — это просто нереальный комбайн, в нём есть всё. Института расширений для него нет, потому что ему они как будто вообще не нужны. По количеству выразительных средств он бьёт всех.
+
+```asciidoc
+= Header
+
+Regular paragraph.
+
+== Subheader
+
+Syntax for *bold* and _italic_ is a little different.
+
+https://example.com[Links] are so weird, I can't even.
+
+Image syntax is also, how do I put it, interesting:
+
+image::image.png[Alt text]
+
+NOTE: But the admonition syntax is fire.
+
+Tables can be linearized, with another unconventional syntax construct:
+
+.
+|===
+|Name
+|Age
+|Gender
+
+|Alice
+|23
+|female
+
+|Bob
+|34
+|male
+
+|XJ-1234
+|2000
+|other
+|===
+```
+
+Плюсы:
+
+-   непревзойдённая выразительность,
+-   семантическая вёрстка.
+
+Минусы:
+
+-   нет API для расширений,
+-   бессистемный синтаксис.
+
+Ссылки:
+
+-   [Официальный сайт](http://www.methods.co.nz/asciidoc/)
+-   [Статья в Вики](https://en.wikipedia.org/wiki/AsciiDoc)
+-   [Справка по языку на сайте Аскидоктора](https://asciidoctor.org/docs/asciidoc-syntax-quick-reference/)
+
+
+### Wiki Markup
+
+У каждой вики свой синтаксис, один чудовищнее другого. Включил вики-разметку в список только для честности. Выучивать её нет смысла, потому что он всё равно везде разная. Поэтому же всё равно пользуешься визивигом.
+
+
+## Инструменты документирования
+
+Сравним несколько инструментов документирования по параметрам:
+
+-   какой язык разметки использует,
+-   на чём написан,
+-   подходит ли для мануалов,
+-   подходит ли для референсов,
+-   какие форматы умеет генерировать,
+-   насколько легко кастомизировать результат.
+
+
+### В облаке
+
+Confluence
+
+GitBook
+
+Google Docs
+
+GitHub Pages
+
+GitHub Wiki
+
+
+### Self hosted
+
+Jekyll
+
+MkDocs
+
+Sphinx
+
+AsciiDoctor
+
+Gatsby
+
+Next
+
+Pandoc
+
+Foliant
