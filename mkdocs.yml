@@ -7,9 +7,9 @@ nav:
     - day1/sentences.md
     - day1/document.md
   - День 2:
-    - day2/kinds-and-tools.md
+    - day2/kinds.md
+    - day2/tools.md
     - day2/rdd.md
-    - day2/issues.md
 
 theme:
   name: material
