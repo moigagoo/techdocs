@@ -442,7 +442,7 @@ Tables can be linearized, with another unconventional syntax construct:
 
 -   не генерируется из кода.
 
-**[Sphinx](http://www.sphinx-doc.org/).** В Сфинксе есть понятие [доменов](www.sphinx-doc.org/en/latest/usage/restructuredtext/domains.html). Домен — это набор ролей для документирования кода на каком-то языке. Из коробки доступны: Python, JS, C, C++, reST, Math, Standard. Из пакетов ставятся другие языки. Есть и [домен для REST API](https://sphinxcontrib-httpdomain.readthedocs.io/en/stable/).
+**[Sphinx](http://www.sphinx-doc.org/).** В Сфинксе есть понятие [доменов](http://www.sphinx-doc.org/en/latest/usage/restructuredtext/domains.html). Домен — это набор ролей для документирования кода на каком-то языке. Из коробки доступны: Python, JS, C, C++, reST, Math, Standard. Из пакетов ставятся другие языки. Есть и [домен для REST API](https://sphinxcontrib-httpdomain.readthedocs.io/en/stable/).
 
 Домены позволяют писать удобную API-документацию вручную. Но Сфинкс ещё и генерирует документацию из кода: на Питоне — из коробки, Go, .NET, JS, Python — через [Sphinx AutoAPI](https://sphinx-autoapi.readthedocs.io/), на Java — через [javasphinx](https://bronto.github.io/javasphinx/). Даже REST API можно генерировать из кода, правда, только из приложений на Flask, Bottle и Tornado.
 
