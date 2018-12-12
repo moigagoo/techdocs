@@ -41,6 +41,18 @@
 
     Техписатель не пишет на автомате и всё подвеграет сомнению. Это хорошая привычка, приучите себя к ней.
 
+Примеры хороших мануалов:
+
+-   [Next.js](https://nextjs.org/docs/)
+-   [Django](https://docs.djangoproject.com/en/2.1/intro/tutorial01/)
+-   [Nim Tutorial](https://nim-lang.org/docs/tut1.html)
+
+Примеры плохих мануалов:
+
+-   [Writing a simple extension for Sphinx](http://www.sphinx-doc.org/en/master/extdev/index.html#dev-extensions)
+-   [Jekyll Quickstart](https://jekyllrb.com/docs/) (от слишком простого к слишком сложному без промежуточных ступеней, практика без теории)
+-   [Travis CI Tutorial](https://docs.travis-ci.com/user/tutorial/) (практика без теории, слишком длинные статьи, модули объединены в статьи по случайному принципу, бесполезные назывные заголовки)
+
 
 ### Референсы
 
