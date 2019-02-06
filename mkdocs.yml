@@ -1,6 +1,10 @@
 site_name: Техническая документация для инженеров
 site_author: Константин Молчанов
 
+repo_name: moigagoo/techdocs
+repo_url: https://github.com/moigagoo/techdocs
+edit_uri: edit/develop/docs/
+
 nav:
   - День 1:
     - day1/words.md
@@ -14,12 +18,9 @@ nav:
 theme:
   name: material
   font:
-    text: 'PT Serif'
-    code: 'PT Mono'
+    text: Ubuntu
+    code: Ubuntu Mono
   language: ru
 
 markdown_extensions:
   - admonition
-
-# extra_css:
-  # - css/extra.css
