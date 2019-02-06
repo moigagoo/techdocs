@@ -1,46 +1,21 @@
-# Интенсив по технической документации
+# Техническая документация для инженеров. Двухдневный интенсив
 
-## Сборка сайта
+Актуальная версия: https://moigagoo.github.io/techdocs
 
-Через Poetry:
 
-1.  Установите Poetry:
+## Локальная сборка
 
-    ```shell
-    curl -sSL https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py | python
-    ```
+### Docker
 
-2.  Клонируйте репку:
+1.  `docker pull squidfunk/mkdocs-material`
 
-    ```shell
-    git clone git@bitbucket.org:moigagoo/techdocsintensive.git
-    ```
+2.  `docker run --rm -it -p 8000:8000 -v ${PWD}:/docs squidfunk/mkdocs-material`
 
-3.  Установите зависимости:
 
-    ```shell
-    cd techdocsintensive
-    poetry install
-    ```
+### Poetry
 
-4.  Соберите сайт:
+0.  `curl -sSL https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py | python`
 
-    ```shell
-    poetry run mkdocs serve
-    ```
+1.  `poetry install`
 
-5.  Откройте доки в браузере по адресу http://localhost:8000.
-
-Или через Докер:
-
-1.  Скачайте образ:
-
-    ```shell
-    docker pull squidfunk/mkdocs-material
-    ```
-
-2.  Соберите сайт:
-
-    ```shell
-    docker run --rm -it -p 8000:8000 -v ${PWD}:/docs squidfunk/mkdocs-material
-    ```
+2.  `poetry run mkdocs serve`
