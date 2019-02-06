@@ -1,0 +1,654 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="ru" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+        <meta name="author" content="Константин Молчанов">
+      
+      
+        <meta name="lang:clipboard.copy" content="Копировать в буфер">
+      
+        <meta name="lang:clipboard.copied" content="Скопировано в буфер">
+      
+        <meta name="lang:search.language" content="ru">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="Совпадений не найдено">
+      
+        <meta name="lang:search.result.one" content="Найдено 1 совпадение">
+      
+        <meta name="lang:search.result.other" content="Найдено # совпадений">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.1.0">
+    
+    
+      
+        <title>Редактура на уровне предложения. Дидактика - Техническая документация для инженеров</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application.11e41852.css">
+      
+      
+    
+    
+      <script src="../../assets/javascripts/modernizr.20ef595d.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:300,400,400i,700|PT+Mono">
+        <style>body,input{font-family:"PT Serif","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"PT Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
+    
+    
+    
+  </head>
+  
+    <body dir="ltr">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#_1" tabindex="1" class="md-skip">
+        Перейти к содержанию
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../.." title="Техническая документация для инженеров" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            
+              <span class="md-header-nav__topic">
+                Техническая документация для инженеров
+              </span>
+              <span class="md-header-nav__topic">
+                Редактура на уровне предложения. Дидактика
+              </span>
+            
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          
+            <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+            
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Поиск" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Начните печатать для поиска
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+          
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="../.." title="Техническая документация для инженеров" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    Техническая документация для инженеров
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1" checked>
+    
+    <label class="md-nav__link" for="nav-1">
+      День 1
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-1">
+        День 1
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../words/" title="Редактура на уровне слов. Инфостиль и стоп-слова" class="md-nav__link">
+      Редактура на уровне слов. Инфостиль и стоп-слова
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Редактура на уровне предложения. Дидактика
+      </label>
+    
+    <a href="./" title="Редактура на уровне предложения. Дидактика" class="md-nav__link md-nav__link--active">
+      Редактура на уровне предложения. Дидактика
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Содержание</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" title="Дидактика" class="md-nav__link">
+    Дидактика
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" title="Шаблон хорошего объяснения" class="md-nav__link">
+    Шаблон хорошего объяснения
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../document/" title="Структура документа" class="md-nav__link">
+      Структура документа
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      День 2
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        День 2
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../day2/kinds/" title="Виды документации" class="md-nav__link">
+      Виды документации
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../day2/tools/" title="Языки разметки и инструменты документирования" class="md-nav__link">
+      Языки разметки и инструменты документирования
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../day2/rdd/" title="Ридми и readme-driven development" class="md-nav__link">
+      Ридми и readme-driven development
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Содержание</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" title="Дидактика" class="md-nav__link">
+    Дидактика
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" title="Шаблон хорошего объяснения" class="md-nav__link">
+    Шаблон хорошего объяснения
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="_1">Редактура на уровне предложения. Дидактика</h1>
+<blockquote>
+<p>A sentence should contain no unnecessary words, a paragraph no unnecessary sentences, for the same reason that a drawing should have no unnecessary lines and a machine no unnecessary parts.</p>
+<p>— <em>Strunk &amp; White, The Elements of Style</em></p>
+</blockquote>
+<p>Отдельные слова не передают смысл. Единица смысла — предложение. Сильное предложение — это такое, которое эффективно передаёт смысл.</p>
+<p>По инфостилю сила предложения — это действие. Поэтому написать хорошее предложение — значит найти действие, действующее лицо и объект и вывести их на первый план.</p>
+<p><strong>Подлежащее.</strong> Хорошо, когда им оказывается тот, кто на самом деле способен к действию. Хуже, когда тот, кто способен к действию метафорически. Плохо, когда на месте подлежащего оказывается не субъект, а объект, т. е. предложение построено  в страдательном залоге:</p>
+<table>
+<thead>
+<tr>
+<th>Хорошо                 </th>
+<th>Хуже                    </th>
+<th>Плохо                      </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Повар взбивает сливки.</td>
+<td>Миксер взбивает сливки.</td>
+<td>Сливки взбиваются поваром.</td>
+</tr>
+</tbody>
+</table>
+<p>Безличные предложения плохи тем, что из них ничего не следует, и в них ничего не происходит:</p>
+<blockquote>
+<p>Надо нажать на кнопку → Нажмите на кнопку.</p>
+</blockquote>
+<p>Найдите в предложении истинное действующее лицо и сделайте его подлежащим.</p>
+<p><strong>Сказуемое.</strong> Хорошо, когда им оказывается глагол действия: значит, в предложении есть действие. Хуже — глагол состояния. Плохо — существительное, стоп-слова из категории «сложных»:</p>
+<table>
+<thead>
+<tr>
+<th>Хорошо                 </th>
+<th>Хуже                              </th>
+<th>Плохо                         </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Повар взбивает сливки.</td>
+<td>Повар является главным на кухне.  </td>
+<td>Повар осуществляет взбивание.</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>Если в предложении нет действия, сказуемое не обязано быть глаголом действия или глаголом вообще. «Вася — молодец» не хуже, чем «Вася делает работу хорошо».</p>
+</div>
+<p><strong>Важное — в начале и в конце.</strong> Ленивый мозг читает от точки до точки, поэтому внимательнее всего он смотрит на начало и конце предложения. Самое важное должно быть там.</p>
+<p><strong>Лучший знак препинания — точка.</strong> Короткие предложения легче читать. Если в предложении больше трёх запятых и нет перечисления — это повод напрячься. Если есть точка с запятой — это два предложения в одном.</p>
+<h2 id="_2">Дидактика</h2>
+<p>Работа техписа — объяснять. В этом ему помогает теория объяснения — дидактика.</p>
+<p>Вот дидактические принципы, которыми руководствуются техписы.</p>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>Приёмы — очевидные. Трудность не в том, чтобы их знать, а в том, чтобы их применять.</p>
+</div>
+<p><strong>Одно предложение — одна новая мысль.</strong> Есть два типа «новой мысли» — введение понятия и введение взаимодействия. Следите, чтобы одно предложение не пыталось сказать больше, чем в него умещается.</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Представьте, что в мозгу у читателя есть буфер и память. В буфер он кладёт предложение, которое обрабатывается сейчас, а в память — обработанные предложения. Пока предложение не понято, оно висит в буфере, чтение дальше не идёт.</p>
+<p>У разных людей буфер разный, но у всех — маленький по сравнению с памятью. Поэтому хорошо, когда одно предложении вводит одну новую мысль — она умещается в буфер и легко перекладывается в память. Когда в предложении вводится несколько новых мыслей, буфер переполняется. Мозг ищёт способы разбить предложение на части и обработать их по отдельности. То есть, делает работу писателя.</p>
+<p>Чем больше писатель заставляет читателя работать, тем выше шанс, что текст не будет прочитан.</p>
+</div>
+<p>Типичное нарушение этого приёма выглядит так:</p>
+<blockquote>
+<p>Superreplacer находит в тексте шаблон (просто строка или regex-выражение, можно также передать функцию для поиска флагом <code>-l</code>: <code>superreplacer -l path/to/customsearchfunction.py</code>) и заменяет его на то, что вам нужно (текст, regex-строку (можно использовать backreference из поискового шаблона) или результат выполнения lambda-функции, принимающей на вход MatchObject и возвращающей строку).</p>
+<p>Примеры:</p>
+<p>...</p>
+</blockquote>
+<p>Это простой пример, но даже он стал сложным из-за попытки уместить в одно предложение всю информацию об инструменте. Ленивый мозг начнём читать, устанет и сразу найдёт «Примеры».</p>
+<p>Перепишем его:</p>
+<blockquote>
+<p>Superreplacer — это инструмент для поиска и замены текста в файлах. Находит простые строки и regex-выражения:</p>
+<p>...</p>
+<p>Если нужна более хитрая логика поиска, можно указать собственную функцию поиска:</p>
+<p>...</p>
+</blockquote>
+<p>Не пытайтесь пояснять «между делом». Это не работает.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Скобки — первый признак переусложнённого предложения, которое надо разбить на несколько простых.</p>
+</div>
+<p><strong>От простого к сложному.</strong> Вводите новые мысли постепенно, чтобы усвоенные мысли составляли базис для новых.</p>
+<p>Если писать наоборот, читатель вынужден сохранять все недопонятые понятия в буфере или выкидывать их до прояснения:</p>
+<blockquote>
+<p>Массив (array) аллоцируется в стеке, а последовательность (sequence) — в куче, поэтому пользовательские данные храним в последовательности.</p>
+<p>Это потому, что массив имеет фиксированный размер, а последовательность — условно «бесконечна».</p>
+<p>Дело в том, что «аллоцируется в куче» значит...</p>
+</blockquote>
+<p>Первое предложение понятно только тому, кто уже знает, в чём отличие массива от последовательности. Если это как раз ваш читатель — не пишите всё остальное. Если нет — читатель потерялся.</p>
+<p>Перепишем:</p>
+<blockquote>
+<p>Есть два способа выделения памяти для хранения данных в памяти: в стеке и в куче.</p>
+<p>В стеке — это ...</p>
+<p>Например, массив (array) аллоцируется в стеке.</p>
+<p>В куче — это ...</p>
+<p>Например, последовательность (sequence) аллоцируется в куче.</p>
+<p>Поэтому для хранения пользовательских данных используем последовательность ...</p>
+</blockquote>
+<p><strong>Теория + практика.</strong> Если изложили теорию — приведите примеры. Начали с примеров — не забудьте объяснить принцип. Теория — это про аналитическое мышление, а практика — про чувственный опыт. Вдвоём они работают лучше, чем по отдельности.</p>
+<p>Без примера:</p>
+<blockquote>
+<p>Команда <code>ls</code> выводит в STDOUT список файлов в активной директории в алфавитном порядке, одной строкой через пробел.</p>
+</blockquote>
+<p>С примером:</p>
+<blockquote>
+<p>Команда <code>ls</code> выводит в STDOUT список файлов в активной директории в алфавитном порядке, одной строкой через пробел:</p>
+<p><code>$ ls</code><br />
+<code>Nim/  buddyshopping-backend/  cliar/ fyi/  loco/  rester/  techdocsintesive/</code></p>
+</blockquote>
+<p>Примеры статей, где соблюдаются эти принципы: <a href="https://adventofcode.com/">Advent of Code</a>.</p>
+<h3 id="_3">Шаблон хорошего объяснения</h3>
+<p>Проверенный шаблон объяснения — <strong>от проблемы к решению:</strong></p>
+<blockquote>
+<p>проблема → решение → принцип → пример</p>
+</blockquote>
+<p>Если проблемы нет, начните с истории:</p>
+<blockquote>
+<p>история → принцип → пример</p>
+</blockquote>
+<p>Каноничный алгоритм написания статьи по этому шаблону:</p>
+<ol>
+<li>
+<p>Выяснить, для кого пишете, и что он знает.</p>
+</li>
+<li>
+<p>Привязать к реальности и вызвать интерес:</p>
+<blockquote>
+<p>В нашем гошном приложении начала течь память при аптайме от двух дней.</p>
+</blockquote>
+</li>
+<li>
+<p>Осветить проблему:</p>
+<blockquote>
+<p>Дело в том, что мы аллоцировали память, которая потом не освобождалась.</p>
+</blockquote>
+</li>
+<li>
+<p>Назвать правило или решение. Классно, если получается придумать запоминаемое правило:</p>
+<blockquote>
+<p>Для решения сделали тулзу diaper, которая не даёт памяти течь.</p>
+</blockquote>
+</li>
+<li>
+<p>Привести примеры:</p>
+<blockquote>
+<p>Работает так: ...</p>
+</blockquote>
+</li>
+<li>
+<p>Помочь с трудностями:</p>
+<blockquote>
+<p>FAQ:</p>
+<p>— Можно использовать не с Go?</p>
+<p>— Да. Для этого ...</p>
+</blockquote>
+</li>
+</ol>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../words/" title="Редактура на уровне слов. Инфостиль и стоп-слова" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Назад
+                </span>
+                Редактура на уровне слов. Инфостиль и стоп-слова
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../document/" title="Структура документа" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Вперед
+                </span>
+                Структура документа
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+        
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/application.9e1f3b71.js"></script>
+      
+        
+        
+          
+          <script src="../../assets/javascripts/lunr/lunr.stemmer.support.js"></script>
+          
+            
+              
+              
+                <script src="../../assets/javascripts/lunr/lunr.ru.js"></script>
+              
+            
+          
+          
+        
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
+      
+    
+    
+      
+    
+  </body>
+</html>

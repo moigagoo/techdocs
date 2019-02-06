@@ -1,0 +1,1062 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="ru" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+        <meta name="author" content="Константин Молчанов">
+      
+      
+        <meta name="lang:clipboard.copy" content="Копировать в буфер">
+      
+        <meta name="lang:clipboard.copied" content="Скопировано в буфер">
+      
+        <meta name="lang:search.language" content="ru">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="Совпадений не найдено">
+      
+        <meta name="lang:search.result.one" content="Найдено 1 совпадение">
+      
+        <meta name="lang:search.result.other" content="Найдено # совпадений">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-3.1.0">
+    
+    
+      
+        <title>Языки разметки и инструменты документирования - Техническая документация для инженеров</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application.11e41852.css">
+      
+      
+    
+    
+      <script src="../../assets/javascripts/modernizr.20ef595d.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:300,400,400i,700|PT+Mono">
+        <style>body,input{font-family:"PT Serif","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"PT Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
+    
+    
+    
+  </head>
+  
+    <body dir="ltr">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#_1" tabindex="1" class="md-skip">
+        Перейти к содержанию
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../.." title="Техническая документация для инженеров" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            
+              <span class="md-header-nav__topic">
+                Техническая документация для инженеров
+              </span>
+              <span class="md-header-nav__topic">
+                Языки разметки и инструменты документирования
+              </span>
+            
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          
+            <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+            
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Поиск" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Начните печатать для поиска
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+          
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="../.." title="Техническая документация для инженеров" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    Техническая документация для инженеров
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1">
+    
+    <label class="md-nav__link" for="nav-1">
+      День 1
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-1">
+        День 1
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../day1/words/" title="Редактура на уровне слов. Инфостиль и стоп-слова" class="md-nav__link">
+      Редактура на уровне слов. Инфостиль и стоп-слова
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../day1/sentences/" title="Редактура на уровне предложения. Дидактика" class="md-nav__link">
+      Редактура на уровне предложения. Дидактика
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../day1/document/" title="Структура документа" class="md-nav__link">
+      Структура документа
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+    
+    <label class="md-nav__link" for="nav-2">
+      День 2
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        День 2
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../kinds/" title="Виды документации" class="md-nav__link">
+      Виды документации
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Языки разметки и инструменты документирования
+      </label>
+    
+    <a href="./" title="Языки разметки и инструменты документирования" class="md-nav__link md-nav__link--active">
+      Языки разметки и инструменты документирования
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Содержание</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" title="Языки разметки" class="md-nav__link">
+    Языки разметки
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#markdown" title="Markdown" class="md-nav__link">
+    Markdown
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#restructuredtext" title="reStructuredText" class="md-nav__link">
+    reStructuredText
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#asciidoc" title="AsciiDoc" class="md-nav__link">
+    AsciiDoc
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wiki-markup" title="Wiki Markup" class="md-nav__link">
+    Wiki Markup
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" title="Инструменты документирования" class="md-nav__link">
+    Инструменты документирования
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" title="Для мануалов" class="md-nav__link">
+    Для мануалов
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_5" title="В облаке" class="md-nav__link">
+    В облаке
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#self-hosted" title="Self-hosted" class="md-nav__link">
+    Self-hosted
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" title="Для референсов" class="md-nav__link">
+    Для референсов
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" title="Прочее" class="md-nav__link">
+    Прочее
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../rdd/" title="Ридми и readme-driven development" class="md-nav__link">
+      Ридми и readme-driven development
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Содержание</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" title="Языки разметки" class="md-nav__link">
+    Языки разметки
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#markdown" title="Markdown" class="md-nav__link">
+    Markdown
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#restructuredtext" title="reStructuredText" class="md-nav__link">
+    reStructuredText
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#asciidoc" title="AsciiDoc" class="md-nav__link">
+    AsciiDoc
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wiki-markup" title="Wiki Markup" class="md-nav__link">
+    Wiki Markup
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" title="Инструменты документирования" class="md-nav__link">
+    Инструменты документирования
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" title="Для мануалов" class="md-nav__link">
+    Для мануалов
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_5" title="В облаке" class="md-nav__link">
+    В облаке
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#self-hosted" title="Self-hosted" class="md-nav__link">
+    Self-hosted
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" title="Для референсов" class="md-nav__link">
+    Для референсов
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" title="Прочее" class="md-nav__link">
+    Прочее
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="_1">Языки разметки и инструменты документирования</h1>
+<h2 id="_2">Языки разметки</h2>
+<p>Как только появилась письменность, появилась и разметка текста. Бывает, что без разметки текст не прочитать.</p>
+<p><img alt="Огласовки в Коране" src="../img/arabian-diacritics.jpg" /></p>
+<p>Для современного писателя разметка текста — способ сделать текст читабельнее. Выделяя слова и абзацы в общем теле документа, мы управляем вниманием.</p>
+<p>Синтаксис HTML или LaTeX громоздок и отвлекает от содержания. Поэтому техписы пишут на так называемый легковесных языках разметки.</p>
+<p>Выбрать правильный язык не так просто. Они различаются сложностью и возможностями.</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Почему не Ворд? Потому что документация в Ворде не версионируема и не может жить рядом с кодом.</p>
+</div>
+<h3 id="markdown">Markdown</h3>
+<p>Самый популярный язык, lingua franca в технической коммуникации. Поддерживают все: GitHub, Bitbucket, Slack, Telegram.</p>
+<p>Маркдаун должен знать каждый. Простой до примитивности, кривенький и косенький, Маркдаун — пример того, как в историческом соревновании побеждает не совершеннейший, а наиболее приспособленный.</p>
+<pre><code class="markdown"># Header
+
+Regular text.
+
+## Subheader
+
+Here's some **bold** and *italic* for you (you can ***combine*** them).
+
+Here's a [link](http://example.com) and an image: ![Alt text](image.png)
+
+Tables are a mess:
+
+| Name    | Age  | Gender |
+|---------|------|--------|
+| Alice   | 23   | female |
+| Bob     | 34   | male   |
+| XJ-1234 | 2000 | other  |
+</code></pre>
+
+<p>Плюсы:</p>
+<ul>
+<li>простота,</li>
+<li>читается в сыром виде лучше всех,</li>
+<li>популярность.</li>
+</ul>
+<p>Минусы:</p>
+<ul>
+<li>нет стандарта синтаксиса,</li>
+<li>нет стандарта и API для расширений,</li>
+<li>принудительный разрыв строки — это висячий пробел.</li>
+</ul>
+<p>Ссылки:</p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Markdown">Статья в Вики</a></li>
+<li><a href="https://daringfireball.net/projects/markdown/">Оригинальная статья о языке</a></li>
+<li><a href="https://commonmark.org/">Commonmark</a></li>
+<li><a href="https://github.github.com/gfm/">GitHub flavored Markdown</a></li>
+</ul>
+<h3 id="restructuredtext">reStructuredText</h3>
+<p>Старый язык, сейчас популярен в экосистеме Python в связке со <a href="http://www.sphinx-doc.org/">Sphinx</a>. Пересекается с Маркдауном в базовом синтаксисе.</p>
+<p>Приятный язык, хотя и со своими закидонами. Главный плюс — возможность расширения синтаксиса. Благодаря этому возможно существование Сфинкса, который добавляет синтаксис для документирования кода.</p>
+<pre><code class="restructuredtext">######
+Header
+######
+
+Unlike in Markdown where the level of a header is exactly the number of # symbols, in reST, header inheritance is calculated on the fly. Sound cool but in fact it eliminates any attempt to implement includes.
+
+*********
+Subheader
+*********
+
+**Bold** and *italic* are the same as in Markdown. But you ***can't*** combine them :-(
+
+`Links &lt;http://example.com&gt;`_ look weird until you get used to them.
+
+Image:
+
+.. image:: image.png
+    :alt: Alt text
+
+.. note:: reST supports admonitions!
+    This is called “semantic markup.”
+
+Tables can be the same ugly mess as in Markdown, but there are saner options—csv and list tables:
+
+.. list-table::
+   :header-rows: 1
+
+   * - Name
+     - Age
+     - Gender
+   * - Alice
+     - 23
+     - female
+   * - Bob
+     - 34
+     - male
+   * - XJ-1234
+     - 2000
+     - other
+</code></pre>
+
+<p>Плюсы:</p>
+<ul>
+<li>почти все простые вещи делаются просто,</li>
+<li>бо́льшая выразительность, чем у Маркдауна,</li>
+<li>семантическая вёрстка,</li>
+<li>есть API для расширений,</li>
+<li>есть синтаксис для сложных таблиц,</li>
+<li>Сфинкс.</li>
+</ul>
+<p>Минусы:</p>
+<ul>
+<li>не все простые вещи делаются просто, например, ссылки и картинки,</li>
+<li>непопулярность,</li>
+<li>нефиксированная иерархия заголовков.</li>
+</ul>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Семантическая вёрстка — это когда у текста есть роли с независимым слоем представления. В Маркдауне семмантической вёрстки нет: инфоблок — это цитата, а его заглоовок — просто жирный текст. В Ресте — есть: инфоблоки — это роль <code>.. info::</code>, которая имеет разное представление в html и pdf.</p>
+<p>Семантическая вёрстка хороша в меру: иногда визуально выделить проще, чем семантически.</p>
+</div>
+<p>Ссылки:</p>
+<ul>
+<li><a href="http://docutils.sourceforge.net/rst.html">Официальный сайт</a></li>
+<li><a href="https://en.wikipedia.org/wiki/ReStructuredText">Статья в Вики</a></li>
+<li><a href="http://sphinx-doc.org/en/latest/usage/restructuredtext/basics.html">Справка по языку на сайте Сфинкса</a></li>
+</ul>
+<h3 id="asciidoc">AsciiDoc</h3>
+<p>Старый и непопулярный язык, получивший вторую жизнь в экосистеме Ruby в связке с <a href="https://asciidoctor.org">AsciiDoctor</a>. Пересекается с Маркдауном в базовом синтаксисе.</p>
+<p>Аскидок — это просто нереальный комбайн, в нём есть всё. Института расширений для него нет, потому что ему они как будто вообще не нужны. По количеству выразительных средств он бьёт всех.</p>
+<pre><code class="asciidoc">= Header
+
+Regular paragraph.
+
+== Subheader
+
+Syntax for *bold* and _italic_ is a little different.
+
+https://example.com[Links] are so weird, I can't even.
+
+Image syntax is also, how do I put it, interesting:
+
+image::image.png[Alt text]
+
+NOTE: But the admonition syntax is fire.
+
+Tables can be linearized, with another unconventional syntax construct:
+
+.
+|===
+|Name
+|Age
+|Gender
+
+|Alice
+|23
+|female
+
+|Bob
+|34
+|male
+
+|XJ-1234
+|2000
+|other
+|===
+</code></pre>
+
+<p>Плюсы:</p>
+<ul>
+<li>непревзойдённая выразительность,</li>
+<li>семантическая вёрстка.</li>
+</ul>
+<p>Минусы:</p>
+<ul>
+<li>нет API для расширений,</li>
+<li>бессистемный синтаксис.</li>
+</ul>
+<p>Ссылки:</p>
+<ul>
+<li><a href="http://www.methods.co.nz/asciidoc/">Официальный сайт</a></li>
+<li><a href="https://en.wikipedia.org/wiki/AsciiDoc">Статья в Вики</a></li>
+<li><a href="https://asciidoctor.org/docs/asciidoc-syntax-quick-reference/">Справка по языку на сайте Аскидоктора</a></li>
+</ul>
+<h3 id="wiki-markup">Wiki Markup</h3>
+<p>У каждой вики свой синтаксис, один чудовищнее другого. Включил вики-разметку в список только для честности. Выучивать её нет смысла, потому что он всё равно везде разная. Поэтому же всё равно пользуешься визивигом.</p>
+<h2 id="_3">Инструменты документирования</h2>
+<p>Сравним несколько инструментов документирования по параметрам:</p>
+<ul>
+<li>какой язык разметки использует,</li>
+<li>на чём написан,</li>
+<li>подходит ли для мануалов,</li>
+<li>подходит ли для референсов,</li>
+<li>какие форматы умеет генерировать,</li>
+<li>насколько легко кастомизировать результат.</li>
+</ul>
+<h3 id="_4">Для мануалов</h3>
+<h4 id="_5">В облаке</h4>
+<p><strong><a href="confluence.atlassian.com/">Confluence</a>.</strong> Наверно, самое популярное решение для компаний.</p>
+<p>Плюсы:</p>
+<ul>
+<li>хорошо работает в Атлассиан-стеке,</li>
+<li>есть комментарии,</li>
+<li>разделение прав.</li>
+</ul>
+<p>Минусы:</p>
+<ul>
+<li>чудовищный визивиг,</li>
+<li>комментарии — так себе,</li>
+<li>вики-разметка,</li>
+<li>тормозной,</li>
+<li>нельзя менять дизайн,</li>
+<li>оставить ссылку на заголовок — приключение,</li>
+<li>переместить страницу — приключение,</li>
+<li>только сайт.</li>
+</ul>
+<p>Моё убеждение: Конфлюенсом пользуются только потому, что нет альтернативы.</p>
+<p><strong><a href="https://www.gitbook.com/">GitBook</a>.</strong> Задуман как сервис для написания книг в Маркдауне. Исходники документации хранятся в репозитории.</p>
+<p>Плюсы:</p>
+<ul>
+<li>Маркдаун,</li>
+<li>можно писать в любимом редакторе,</li>
+<li>приятный дизайн.</li>
+</ul>
+<p>Минусы:</p>
+<ul>
+<li>Маркдаун без расширений даёт скудные выразительные средства,</li>
+<li>нельзя менять дизайн,</li>
+<li>только сайт. </li>
+</ul>
+<p><strong><a href="https://docs.google.com/">Google Docs</a>.</strong> Да, и их используют для документации :-)</p>
+<p>Плюсы:</p>
+<ul>
+<li>лучший визивиг на свете,</li>
+<li>есть у всех,</li>
+<li>шаринг и права,</li>
+<li>богатые выразительные средства,</li>
+<li>pdf, docx и сайт.</li>
+</ul>
+<p>Минусы:</p>
+<ul>
+<li>нечитабельные УРЛы,</li>
+<li>нельзя менять дизайн,</li>
+<li>ни с чем не интегрируется,</li>
+<li>невозможно организовать документы иерархически.</li>
+</ul>
+<p>Гуглодоки часто игнорируют как платформу для документации, а зря. У них чертовски хороший визивиг, поэтому редактирование документации в них однозначно лучше, чем у кого бы то ни было.</p>
+<p>Из-за того, что нет нормальной навигации, для референсов их использовать невозможно. Для одного мануала — ОК, для серии — не ОК.</p>
+<p>Когда Гугл догадается сделать конкуретна Конфлюенса с визивигом из Доков — это будет бомба.</p>
+<p><strong><a href="https://guides.github.com/features/wikis/">GitHub Wiki</a></strong>.</p>
+<p>Плюсы:</p>
+<ul>
+<li>рядом с репкой,</li>
+<li>бесплатно,</li>
+<li>Маркдаун,</li>
+<li>есть навигация.</li>
+</ul>
+<p>Минусы:</p>
+<ul>
+<li>поиск неудобный, потому что ищет не только по вики,</li>
+<li>неудобный дизайн, который нельзя менять,</li>
+<li>Маркдаун без расширений,</li>
+<li>редактирование только на сайте,</li>
+<li>только сайт,</li>
+<li>неявные соглашения о названиях файлов.</li>
+</ul>
+<p>Сейчас даже сам Гитхаб, кажется, забил на вики и больше пиарит GitHub Pages. Преимуществ у вики перед статическим сайтом нет.</p>
+<h4 id="self-hosted">Self-hosted</h4>
+<p><strong><a href="https://jekyllrb.com/">Jekyll</a>.</strong> Самый популярный генератор статических сайтов. Позиционируется как решение в первую очередь для блогов.</p>
+<p>Плюсы:</p>
+<ul>
+<li>интеграция с Гитхабом, превращающая его в облачное решение,</li>
+<li>Маркдаун,</li>
+<li>много готовых дизайнов, можно делать свой,</li>
+<li>поиск и навигация.</li>
+</ul>
+<p>Минусы:</p>
+<ul>
+<li>Руби,</li>
+<li>сложная структура папок,</li>
+<li>Маркдаун без расширений,</li>
+<li>по-нормальному — только сайт.</li>
+</ul>
+<p><strong><a href="https://www.mkdocs.org/">MkDocs</a>.</strong> В отличие от Джекила, создавался в первую очередь для документации, как альтернатива Сфинксу. Почти идеальный.</p>
+<p>Плюсы:</p>
+<ul>
+<li>Маркдаун с расширениями,</li>
+<li>есть готовые дизайны, можно делать свои,</li>
+<li>хорошая документация,</li>
+<li>поиск и навигация.</li>
+</ul>
+<p>Минусы:</p>
+<ul>
+<li>по-нормальному — только сайт,</li>
+<li>заголовки на русском — боль.</li>
+</ul>
+<p>Отличное решение для мануалов и для писаных вручную референсов. В него можно засунуть даже сгенерированные референсы, потому что используется гибкий диалект Маркдауна.</p>
+<p><strong><a href="http://www.sphinx-doc.org/">Sphinx</a>.</strong> Генератор документации в первую очередь для Питона. Сразу задумывался и для мануалов, и для референсов и и для сайтов, и для pdf. Почти идеальный.</p>
+<p>Плюсы:</p>
+<ul>
+<li>богатый синтаксис,</li>
+<li>персистентные кроссссылки,</li>
+<li>генерирует API-документацию из кода на Питоне, Яве, ЖС, Го и много ещё каких языков,</li>
+<li>можно оставлять ссылки на сущности кода,</li>
+<li>генерирует pdf и сайт,</li>
+<li>есть готовые темы, можно делать свои (и для pdf тоже),</li>
+<li>поиск и навигация.</li>
+</ul>
+<p>Минусы:</p>
+<ul>
+<li>не Маркдаун,</li>
+<li>мало хороших тем,</li>
+<li>переусложнённый API расширений.</li>
+</ul>
+<p>Сфинкс уникален по сочетанию фич. Но нужны ли вам все его фичи — вопрос.</p>
+<p><strong><a href="https://asciidoctor.org/">AsciiDoctor</a>.</strong> Генератор скорее страниц, чем документации. Конвертирует один файл в другой файл.</p>
+<p>Плюсы:</p>
+<ul>
+<li>хорошая тема,</li>
+<li>генерирует сайт и pdf.</li>
+</ul>
+<p>Минусы:</p>
+<ul>
+<li>нет поиска и навигации,</li>
+<li>не умеет работать с папками,</li>
+<li>тем нет вообще,</li>
+<li>Руби.</li>
+</ul>
+<p>Если честно, для полноценной документации он не годится: конвертировать файлики по одному и склеивать их потом скриптом — так себе история.</p>
+<p><strong><a href="https://pandoc.org/">Pandoc</a>.</strong> Конвертер из всего во всё. Строго говоря, это не генератор документации, хоть и может так использоваться.</p>
+<p>Плюсы:</p>
+<ul>
+<li>удобные шаблоны для pdf,</li>
+<li>генерирует всё,</li>
+<li>Маркдаун с клёвыми расширениями.</li>
+</ul>
+<p>Минусы:</p>
+<ul>
+<li>конвертирует файл в файл.</li>
+</ul>
+<p>Для полноценной документации ещё хуже, чем Аскидоктор. Зато его можно использовать как бекенд для другого генератора.</p>
+<p><strong><a href="https://foliant-docs.github.io/docs/">Foliant</a>.</strong> (Минутка бессовестного пиара :-) Фолиант создавался как конкурент Сфинкса на Маркдауне. Имеет модульную архитектуру: всё интересное происходит в расширениях, а ядро выступает клеем.</p>
+<p>Плюсы:</p>
+<ul>
+<li>Маркдаун с синтаксисом для расширений тегами,</li>
+<li>инклюды,</li>
+<li>генерирует сайт, pdf, docx, заливает в Гугл.</li>
+<li>для сайта использует Макдокс, для остального — Пандок,</li>
+<li>просто писать расширения.</li>
+</ul>
+<p>Минусы:</p>
+<ul>
+<li>нет расширения для универсальных кроссссылок,</li>
+<li>разрабатывается небольшой группой людей,</li>
+</ul>
+<h3 id="_6">Для референсов</h3>
+<p><strong><a href="https://swagger.io/">Swagger</a>.</strong> Инструмент для описания REST API. Свагер — это две вещи: спецификация и конвертер из документов в этой спецификации в html.</p>
+<p>Плюсы:</p>
+<ul>
+<li>популярный,</li>
+<li>можно собирать документацию из комментариев в коде.</li>
+</ul>
+<p>Минусы:</p>
+<ul>
+<li>сложная спецификация,</li>
+<li>не Макрадаун,</li>
+<li>только сайт.</li>
+</ul>
+<p><strong><a href="https://raml.org/">RAML</a>.</strong> То же самое, только спецификация другая.</p>
+<p><strong><a href="http://apidocjs.com/">apiDoc</a>.</strong> Тоже инструмент для документирования REST API. Заточен под использование в комментариях в коде.</p>
+<p>Плюсы:</p>
+<ul>
+<li>Маркдаун,</li>
+<li>спецификация проще, чем у Свагера,</li>
+<li>переиспользовать файл проще, чем у Свагера,</li>
+<li>хорошо генерируется из кода.</li>
+</ul>
+<p><strong><a href="https://apiblueprint.org/">API Blueprint</a>.</strong> Инструмент для документирования REST API в отрыве от кода вообще. Идеология — «спецификация первична, код — вторичен».</p>
+<p>Как инструмент для описания абстрактных API-спецификаций он прекрасен: это обычный Маркдаун, который красиво рендерится.</p>
+<p>Плюсы:</p>
+<ul>
+<li>Маркдаун <em>и всё</em>,</li>
+<li>много инструментов, поддерживающих стандарт.</li>
+</ul>
+<p>Минусы:</p>
+<ul>
+<li>не генерируется из кода.</li>
+</ul>
+<p><strong><a href="http://www.sphinx-doc.org/">Sphinx</a>.</strong> В Сфинксе есть понятие <a href="http://www.sphinx-doc.org/en/latest/usage/restructuredtext/domains.html">доменов</a>. Домен — это набор reST-ролей для документирования кода на определённом языке программирования. Из коробки Python, JS, C, C++, reST.</p>
+<p>Есть и <a href="https://sphinxcontrib-httpdomain.readthedocs.io/en/stable/">домен для REST API</a>.</p>
+<p>Домены позволяют писать API-документацию вручную и генерировать из кода: на Питоне — из коробки, Go, .NET, JS — через <a href="https://sphinx-autoapi.readthedocs.io/">Sphinx AutoAPI</a>, Java — через <a href="https://bronto.github.io/javasphinx/">javasphinx</a>.</p>
+<p>REST API можно генерировать из приложений на Flask, Bottle и Tornado.</p>
+<p>Плюсы:</p>
+<ul>
+<li>встраивается в существующую документацию на Сфинксе,</li>
+<li>генерируется из кода на многих языках,</li>
+<li>годится не только для REST API,</li>
+<li>кроссссылки на код.</li>
+</ul>
+<p>Минусы:</p>
+<ul>
+<li>не Маркдаун,</li>
+<li>генерации кода для вашего языка может не быть,</li>
+<li>проект Sphinx AutoAPI молодой,</li>
+<li>при генерации доков из кода на Питоне код импортируется.</li>
+</ul>
+<p><strong><a href="http://www.doxygen.nl/">Doxygen</a>.</strong> Изначально генератор документации из кода на C++, сейчас поддерживает и другие языки.</p>
+<p>Плюсы:</p>
+<ul>
+<li>старое, проверенное решение,</li>
+<li>поддерживает много языков.</li>
+</ul>
+<p>Минусы:</p>
+<ul>
+<li>уродский дизайн из 90-х,</li>
+<li>уродский язык разметки,</li>
+<li>не подходит для документирования REST API,</li>
+<li>не подходит для ручного документирования.</li>
+</ul>
+<h3 id="_7">Прочее</h3>
+<p>Документация — это необязательно сайтик или документ. Кроме Readme, о котором следующее занятие, есть совсем альтернативные подходы. Расскажу об одном, который меня зацепил.</p>
+<p><a href="https://codeascraft.com/2018/10/10/etsys-experiment-with-immutable-documentation/">Компания Etsy разделила документацию на why docs и how docs</a>. Первые меняются редко, их ведут как обычную документацию. Вторые меняются постоянно, и их с сайта перенесли в Slack. Одна команда добавляет статью в хранилище, другая — ищет по добавленным статьям.</p>
+<p>В качестве эксперимента я сделал приложения для Слака и поставил его в своей команде. Чтобы поискать по базе знаний, пишем в чат: «/как зайти на прод такого-то сервиса?». Чтобы добавить ответ: «/так зайти на прод такого-то сервиса».</p>
+<p>Пробуйте новые формы, экспериментируйте. Правил нет, деление на мануалы и референсы — условность из старых времён. Сейчас можно всё.</p>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../kinds/" title="Виды документации" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Назад
+                </span>
+                Виды документации
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../rdd/" title="Ридми и readme-driven development" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Вперед
+                </span>
+                Ридми и readme-driven development
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+        
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/application.9e1f3b71.js"></script>
+      
+        
+        
+          
+          <script src="../../assets/javascripts/lunr/lunr.stemmer.support.js"></script>
+          
+            
+              
+              
+                <script src="../../assets/javascripts/lunr/lunr.ru.js"></script>
+              
+            
+          
+          
+        
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
+      
+    
+    
+      
+    
+  </body>
+</html>
