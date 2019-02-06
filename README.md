@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/moigagoo/techdocs.svg?branch=develop)](https://travis-ci.org/moigagoo/techdocs)
+
 # Техническая документация для инженеров. Двухдневный интенсив
 
 Актуальная версия: https://moigagoo.github.io/techdocs
