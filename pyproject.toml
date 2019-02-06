@@ -5,7 +5,7 @@ description = ""
 authors = ["Konstantin Molchanov <moigagoo@live.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.7"
+python = "^3.6"
 mkdocs = "^1.0"
 mkdocs-material = "^3.0"
 pymdown-extensions = "^6.0"
